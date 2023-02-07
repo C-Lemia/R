@@ -1,2 +1,2 @@
 # R
-Meus estudos na linguagem R.
+Meus estudos com a linguagem R.
