@@ -12,17 +12,25 @@ getwd()
 
 # Instalando Pacotes:
 install.packages("readr")
+
 install.packages("data.table")
+
 install.packages("dplyr")
+
 install.packages("ggplot2")
+
 library(readr)
+
 library(data.table)
+
 library(dplyr)
+
 library(ggplot2)
 
 # Lendo CSV com fread.
 
 system.time(df <- fread("TemperaturasGlobais.csv"))
+
 View(df)
 
 # Criando dados carregados:
